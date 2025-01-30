@@ -1,14 +1,11 @@
 import { useState } from "react";
 import "./App.css";
+import "./component/Checker";
 
 function App() {
   //state
-  const [checked, setChecked] = useState(true);
 
   // comportements
-  const toggelCheck = () => {
-    setChecked(!checked);
-  };
 
   // render ( affichage)
   return (
